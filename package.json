@@ -1,0 +1,21 @@
+{
+  "name": "next-wasm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "next dev",
+    "build": "yarn wasm && next build",
+    "wasm": "wasm-pack build wasm -d ../src/lib"
+  },
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "@types/react": "^17.0.11",
+    "typescript": "^4.3.4"
+  }
+}
