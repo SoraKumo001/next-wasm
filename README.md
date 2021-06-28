@@ -15,5 +15,5 @@
 
 - dev起動  
 `yarn run`
-- Build(現時点で失敗する)  
+- Build
 `yarn build`
