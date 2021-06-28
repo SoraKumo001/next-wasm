@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "run": "next dev",
+    "dev": "next dev",
+    "start": "next start",
     "build": "next build",
     "wasm": "wasm-pack build wasm -d ../src/lib"
   },
